@@ -15,9 +15,9 @@ title                    : "Ο Προγραμματισμός της Διάδρ�
 title_separator          : "-"
 name                     : "mibook"
 description              : "Making Interactivity Greek Book."
-url                      : "https://mibook.github.io"
+url                      : "https://spirosbax.github.io"
 baseurl                  : "/gr"
-repository               : "mibook/gr"
+repository               : "spirosbax/gr"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -66,7 +66,7 @@ author:
   location         :
   email            :
   uri              :
-  home             : "http://mibook.org/gr"
+  home             : "http://spirosbax.github.io/gr"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -85,7 +85,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          :https://twitter.com/p16baxe
   vine             :
   weibo            :
   xing             :
@@ -170,6 +170,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-twitter 
 
 # mimic GitHub Pages with --safe
 whitelist:
